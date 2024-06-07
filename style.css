@@ -1,0 +1,59 @@
+html {
+  background-color: rgb(78, 164, 235);
+}
+
+.conatainer {
+  flex: 1;
+  z-index: 2;
+}
+.container > .row {
+  display: flex;
+  margin: 5%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-sm {
+  height: 10vh;
+  width: 80px;
+  background-color: rgb(21, 21, 138);
+  box-shadow: 0 0 10px rgba(4, 4, 4, 4.5);
+  text-align: center;
+  -webkit-text-fill-color: aliceblue;
+}
+h1 {
+  text-align: center;
+  background-color: khaki;
+  font-size: 10vw;
+  z-index: 3;
+}
+
+form {
+  background-color: khaki;
+  font-size: 5vw;
+  z-index: 1;
+}
+
+input {
+  width: 30%;
+}
+button {
+  width: 20%;
+}
+p {
+  font-size: 3vw;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(112, 181, 221);
+  border-radius: 50%;
+}
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 50px solid yellow;
+}

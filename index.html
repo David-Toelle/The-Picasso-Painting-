@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>The Picasso Painting</h1>
+    </div>
+    <div class="container">
+      <div class="row row-1">
+        <div class="col-sm"><div class="circle"></div></div>
+        <div class="col-sm"><div class="triangle-up"></div></div>
+        <div class="col-sm"><div class="triangle-up"></div></div>
+      </div>
+      <div class="row row-2">
+        <div class="col-sm"><div class="circle"></div></div>
+        <div class="col-sm"><div class="circle"></div></div>
+        <div class="col-sm"><div class="circle"></div></div>
+      </div>
+      <div class="row row-3">
+        <div class="col-sm"><div class="triangle-up"></div></div>
+        <div class="col-sm"><div class="triangle-up"></div></div>
+        <div class="col-sm"><div class="circle"></div></div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Enter Name"
+        />
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Enter email"
+        />
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+
+      <form>
+        <input
+          type="button"
+          class="button"
+          value="Submit"
+          onclick="navigateToPage()"
+        />
+      </form>
+
+      <script>
+        function navigateToPage() {
+          window.location.href = "new_page.html";
+        }
+      </script>
+    </form>
+  </footer>
+</html>
